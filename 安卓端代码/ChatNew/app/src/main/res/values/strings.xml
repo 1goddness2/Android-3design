@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">交友圈</string>
+    <string name="title_activity_qqmain">QqmainActivity</string>
+    <string name="title_home">消息列表</string>
+    <string name="title_dashboard">联系人</string>
+    <string name="title_notifications">问题圈</string>
+    <string name="title_user">个人信息</string>
+</resources>
