@@ -1,0 +1,75 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register - Input Form by Tooplate</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/materialize.min.css">
+    <link rel="stylesheet" href="static/css/tooplate.css">
+</head>
+
+<body id="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <header class="mb-5">
+                    <h3 class="mt-0 white-text">忘记密码</h3>
+                    <p class="grey-text mb-4">请如实填写您的信息.</p>
+                    <p class="grey-text">本网页是基于区块链的商品追溯系统，用于查询并存储商品信息。本小组为王天丰小组，小组组员：杨鹏勃、王浩、李崇亮、杨嘉璇。
+                </header>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                <form action="send_val_code">
+                <div class="input-field">
+                        <input placeholder="Email" id="email" name="email" type="email" class="validate">
+                </div>
+
+                 <div class="text-right mt-4">
+                        <button type="submit" class="waves-effect btn-large btn-large-white px-4 tm-border-radius-0">发送验证码</button>
+                    </div>
+                  </form>
+                  <form action="v_forget">
+                    <div class="input-field">
+                        <input placeholder="输入验证码" id="yanzhengma" name="yanzhengma" type="text" class="validate">
+                    </div>
+
+
+                    <div class="input-field">
+                        <input placeholder="输入新密码" id="password" name="password" type="password" class="validate">
+                    </div>
+                    <div class="input-field">
+                        <input placeholder="重新输入新密码" id="password2" name="password2" type="password" class="validate">
+                    </div>
+
+                    <div class="input-field">
+
+                        <button type="submit" class="waves-effect btn-large btn-large-white px-4 tm-border-radius-0">重新设定</button>
+                    </div>
+                </form>
+            </div>
+
+    <script src="static/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="static/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>
+
+    <script src="static/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="static/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>
